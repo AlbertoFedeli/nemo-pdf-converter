@@ -1,0 +1,26 @@
+#       ___ __
+#     _{___{__}\
+#    {_}      `\)
+#   {_}        `            _.-''''--.._
+#   {_}                    //'.--.  \___`.
+#    { }__,_.--~~~-~~~-~~-::.---. `-.\  `.)
+#     `-.{_{_{_{_{_{_{_{_//  -- 8;=- `
+#        `-:,_.:,_:,_:,.`\\._ ..'=- ,
+#            // // // //`-.`\`   .-'/
+#           << << << <<    \ `--'  /----)
+#            ^  ^  ^  ^     `-.....--'''
+# Alberto J. Fedeli
+# Alberto@Fede.li
+
+[Nemo Action]
+Name=Convert to PDF
+Comment=Converter to change doc files into a pdf file.
+Icon-Name=converter
+Extensions=doc;docx;
+Selection=notnone
+
+#Exec= lowriter --headless --convert-to pdf %F --outdir %P && echo "test"
+Exec=<converter.sh %F %P>
+EscapeSpaces=true
+
+Dependencies=lowriter;
