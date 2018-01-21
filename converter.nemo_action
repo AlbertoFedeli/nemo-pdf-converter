@@ -15,8 +15,8 @@
 [Nemo Action]
 Name=Convert to PDF
 Comment=Converter to change doc files into a pdf file.
-Icon-Name=converter
-Extensions=doc;docx;
+Icon-Name=emblem-synchronizing-symbolic
+Extensions=doc;docx;ppt;pptx;
 Selection=notnone
 
 #Exec= lowriter --headless --convert-to pdf %F --outdir %P && echo "test"
