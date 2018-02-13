@@ -19,7 +19,7 @@ Icon-Name=emblem-synchronizing-symbolic
 Extensions=doc;docx;ppt;pptx;
 Selection=notnone
 
-#Exec= lowriter --headless --convert-to pdf %F --outdir %P && echo "test"
+#Exec= lowriter --headless --convert-to pdf %F --outdir %P
 Exec=<converter.sh %F %P>
 EscapeSpaces=true
 
